@@ -1,18 +1,17 @@
-alert("Hii")
-window.alert("Hello")
+//pop up saying Hii
+window.alert("Hiii")
 
-var A="Here's This is the beginning of the string" + "and this is the end of the string"
+//Setting var
+var Sent1="This is the beginning of the string"
+var Sent2="and this is the end of the string"
 
+//Concantenate vars
+Sent1+Sent2
 
-document.write(A)
+//expression
+let y =3;
+let x =4;
+let b =y+x;
 
-var B="Here is \"another\"string"
-
-document.write(B)
-
-document.write("Here is some text" + "Here is some more text")
-
-//family
-var Family="The Cunninghams", Dad="Adam", Daughter="Keana", Son="Charlie";
-document.write(Dad)
+document.write(b)
 
