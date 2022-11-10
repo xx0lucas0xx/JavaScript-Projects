@@ -5,3 +5,10 @@ function myfunction()  {
 }
 
 ///////////////////////////
+ 
+function not() {
+  document.getElementById("Test").innerHTML = isNaN("Hello?");
+}
+
+document.write(2E310);
+document.write(-3E340);
