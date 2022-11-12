@@ -7,7 +7,7 @@ function Ride_Function() { //Height to ride boolean function
 
 function Vote_Function() { //vote age boolean function
     var Age, Can_vote;
-    Height = document.getElementById("Age").value;
+    Age = document.getElementById("Age").value;
     Can_vote = (Age < 18) ? "you are too young" : "you are old enough" ;
     document.getElementById("Vote").innerHTML = Can_vote + "to vote.";
 }
@@ -24,8 +24,8 @@ var Dani = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
 var Nathan = new Vehicle("Ford", "Pinto", 1971, "Mustard");
 function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML =
-    "Erik drives a " + Erik.Vehicle_Color + "-colored" + Erik.Vehicle_Model +
-    "manufactured in" + Erik.Vehicle_Year
+    "Ezra drives a " + Ezra.Vehicle_Color + "-colored" + Ezra.Vehicle_Model +
+    "manufactured in" + Ezra.Vehicle_Year
     
 }
 
