@@ -17,18 +17,27 @@ function Machine() { //Upper case string method
     document.getElementById("Girl").innerHTML = result;
 }
 
-function Movie() { //
+function Movie() { //search method
     var text = "Indiana Jones is a great movie";
     var position = text.search("Indiana");
     document.getElementById("Jones").innerHTML = position;
 }
 
-function string_Method() {
+function string_Method() { //turns var into string
     var X = 360;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
 }
 
-function percision_Method() {
-    var X =1243487.98421489651489651361681;
+function percision_Method() { //shortens number to percision
+    var X = 1243487.98421489651489651361681;
     document.getElementById("Percision").innerHTML = X.toPrecision(10);
 }
+
+function fixed_Method() { //turns var into string and rounds
+    var X = 1738;
+    document.getElementById("Fixed").innerHTML = X.toFixed(3);
+}
+
+let text = "Hello"; //returns primative value of string
+let result = text.valueOf();
+    document.getElementById("Hello").innerHTML= result;
