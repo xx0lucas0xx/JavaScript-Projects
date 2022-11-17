@@ -1,3 +1,4 @@
+/* slideshow container*/
 * {box-sizing: border-box}
 body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
@@ -9,6 +10,7 @@ img {vertical-align: middle;}
   margin: auto;
 }
 
+/* previous and next button*/
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -29,10 +31,12 @@ img {vertical-align: middle;}
   border-radius: 3px 0 0 3px;
 }
 
+/* previous and next hover*/
 .prev:hover, .next:hover {
   background-color: rgb(118, 32, 66);
 }
 
+/*text details*/
 .text {
   color: rgb(249, 194, 216);
   font-size: 15px;
@@ -51,6 +55,7 @@ img {vertical-align: middle;}
   top: 0;
 }
 
+/*Dot bottom of screen*/
 .dot {
   cursor: pointer;
   height: 15px;
@@ -66,6 +71,7 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
+/*fade animation*/
 .fade {
   animation-name: fade;
   animation-duration: 1.5s;
@@ -76,6 +82,7 @@ img {vertical-align: middle;}
   to {opacity: 1}
 }
 
+/*for different screen sizes*/
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
