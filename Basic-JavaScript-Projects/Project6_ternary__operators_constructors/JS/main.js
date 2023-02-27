@@ -12,20 +12,20 @@ function Vote_Function() { //vote age boolean function
     document.getElementById("Vote").innerHTML = Can_vote + "to vote.";
 }
 
-//////////////////////////////////////////////////////////////CAR CLASS new this
+//////////////////////////////////////////////////////////////CAR CLASS
 function Vehicle(Make, Model, Year, Color) {
     this.Vehicle_Make = Make;
     this.Vehicle_Model = Model;
     this.Vehicle_Year = Year;
     this.Vehicle_Color = Color;
 }
-var Ezra = new Vehicle("Dodge","Viper", 2020, "Red");
-var Dani = new Vehicle("Jeep", "Trail Hawk", 2019, "White and Black");
-var Nathan = new Vehicle("Ford", "Pinto", 1971, "Mustard");
+var Ezra = new Vehicle("Dodge ","Viper ", 2020, "Red");
+var Dani = new Vehicle("Jeep ", "Trail Hawk ", 2019, "White and Black");
+var Nathan = new Vehicle("Ford ", "Pinto ", 1971, "Mustard");
 function myFunction() {
     document.getElementById("Keywords_and_Constructors").innerHTML =
-    "Ezra drives a " + Ezra.Vehicle_Color + "-colored" + Ezra.Vehicle_Model +
-    "manufactured in" + Ezra.Vehicle_Year
+    "Ezra drives a " + Ezra.Vehicle_Color + "-colored " + Ezra.Vehicle_Model +
+    "manufactured in " + Ezra.Vehicle_Year
     
 }
 

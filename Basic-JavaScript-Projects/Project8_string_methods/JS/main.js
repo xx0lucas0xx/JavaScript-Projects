@@ -1,6 +1,6 @@
 function Sentence() { //Concatenate cat string
-    var one = "I love my cat";
-    var two =  "She is very calm and sweet";
+    var one = "I love my cat.";
+    var two =  " She is very calm and sweet";
     var Sentence = one.concat(two);
     document.getElementById("Concatenate").innerHTML = Sentence;
 }
