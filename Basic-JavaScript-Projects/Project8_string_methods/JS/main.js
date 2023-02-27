@@ -17,12 +17,6 @@ function Machine() { //Upper case string method
     document.getElementById("Girl").innerHTML = result;
 }
 
-function Movie() { //search method
-    var text = "Indiana Jones is a great movie";
-    var position = text.search("Indiana");
-    document.getElementById("Jones").innerHTML = position;
-}
-
 function string_Method() { //turns var into string
     var X = 360;
     document.getElementById("Numbers_to_string").innerHTML = X.toString();
