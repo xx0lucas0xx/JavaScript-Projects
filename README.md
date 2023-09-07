@@ -5,11 +5,11 @@ This repository is for my JavaScript projects at the Tech Academy
 [Contains JavaScript and CSS, shows clickable item choices 
 and a submit button for your order]
 
-		TicTacToe
+	TicTacToe
 [Contains JavaScript and CSS, and is a playable tic-tac-toe program
 with silly pictures and sound effects]
 
-		Calculator
+	Calculator
 [Contains JavaScript and CSS, is a working calculator, pretty simple]
 
 	AJAX
@@ -36,7 +36,6 @@ with silly pictures and sound effects]
 	Project6_ternary__operators_constructors
 [Contains JavaScript, input for height to ride and age to vote, 
 displays if allowed or not after input]
-
 
 	Project7_scope_time_function
 [Contains JavaScript, input age to check if can buy cigs, onclick time function]
